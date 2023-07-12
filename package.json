@@ -1,0 +1,30 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.0",
+    "description": "A Social Network API used to store user's thoughts",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AngadBatth/social-network-api.git"
+    },
+    "bugs": {
+      "url": "https://github.com/AngadBatth/social-network-api/issues"
+    },
+    "homepage": "https://github.com/AngadBatth/social-network-api#readme",
+    "keywords": [],
+    "author": "AngadBatth",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.9"
+    },
+    "dependencies": {
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "mongoose": "^7.3.2",
+      "luxon": "^3.3.0"
+    }
+  }
